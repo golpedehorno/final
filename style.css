@@ -1,11 +1,33 @@
-.productos{
-    width: 80%;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 17%;
     height: 100vh;
-    margin-left: 20%; ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    box-shadow: 1px 1px 10px 3px #474747;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+li{
+    height: 25%;
+}
+.productos{
+    width: 90%;
+    height: 96vh;
+    margin-left: 16%; 
     border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 15px;
+    padding: 15px;
 }
 
 .foto{
@@ -13,6 +35,10 @@
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+    border: 1px solid black;
+}
+.foto:hover{
+    transform: scale(1.5);
 }
 
 .uno{
