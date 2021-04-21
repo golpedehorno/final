@@ -4,7 +4,7 @@
 }
 
 .menu{
-    width: 17%;
+    width: 13%;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -20,9 +20,9 @@ li{
     height: 25%;
 }
 .productos{
-    width: 90%;
+    width: 76%;
     height: 96vh;
-    margin-left: 16%; 
+    margin-left: 21%; 
     border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -74,3 +74,13 @@ grid-row: 2/3;
     grid-column: 3/5;
     grid-row: 4/5;
 }
+
+.somos , .estamos, .contacto {
+    width: 76%;
+    height: 90vh;
+    margin-left: 21%; 
+    border: 1px solid black;
+    gap: 15px;
+    padding: 15px;
+}
+
