@@ -11,15 +11,15 @@
     <header >
         <nav>
             <ul class="menu">
-                <li>PRODUCTOS</li>
-                <li>QUIENES SOMOS</li>
-                <li>DONDE ESTAMOS</li>
-                <li>CONTACTO</li>
+                <li> <a href="#productos">PRODUCTOS</a> </li>
+                <li> <a href="#somos">QUIENES SOMOS</a> </li>
+                <li> <a href="#estamos"> DONDE ESTAMOS  </a></li>
+                <li> <a href="#contacto">CONTACTO </a> </li>
             </ul>
         </nav>
     </header>
 
-    <div class="productos">
+    <div id="productos">
         <img src="IMG/1.jpg" alt="" class="foto uno">
         <img src="IMG/2.jpg" alt="" class="foto dos">
         <img src="IMG/3.jpg" alt="" class="foto tres">
@@ -31,7 +31,7 @@
         <img src="IMG/9.jpg" alt="" class="foto nueve">
     </div>
     
-    <div class="somos">
+    <div id="somos">
        <div class="somos_contenido"> 
         <H2>quienes somos</H2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quaerat nihil ex commodi aliquid in asperiores vitae consequatur nam ut enim omnis, quam temporibus modi explicabo doloremque vel maiores. Numquam?
@@ -43,36 +43,43 @@
        
     </div>
 
-    <div class="estamos">
-        <H2>donde estamos</H2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quaerat nihil ex commodi aliquid in asperiores vitae consequatur nam ut enim omnis, quam temporibus modi explicabo doloremque vel maiores. Numquam?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aut dolore natus culpa suscipit accusamus iure earum, quis ab sunt cum labore perferendis provident a, eveniet eaque ex non alias.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, illum. Molestias iusto voluptas distinctio! Inventore neque ratione ab numquam, perferendis debitis aut iusto ipsum voluptatem labore illum quas repellat earum!
-
+    <div id="estamos">
+        <div class="estamos_comtenido">
+            <H2>donde estamos</H2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quaerat nihil ex commodi aliquid in asperiores vitae consequatur nam ut enim omnis, quam temporibus modi explicabo doloremque vel maiores. Numquam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aut dolore natus culpa suscipit accusamus iure earum, quis ab sunt cum labore perferendis provident a, eveniet eaque ex non alias.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, illum. Molestias iusto voluptas distinctio! Inventore neque ratione ab numquam, perferendis debitis aut iusto ipsum voluptatem labore illum quas repellat earum!
+        </div>
+       
     </div>
 
-    <div class="contacto">
-        <form action="">
-            <h3 class="contactanos"> Contactanos</h3>
-            <p> *Reservá tu lugar o consultanos para tu evento</p>
-              
-            <div class="contenedor_form">
-                    <label for="nombre">Tu Nombre: </label>
-                    <input type="text">
-                    <label for="mail">Tu Email: </label>
-                    <input type="text">
-                    <label for="telefono">Tu Teléfono: </label>
-                    <input type="text">
-                    <label for="mensje">Tu Mensaje: </label>
-                    <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Envia Mensaje" class="boton_enviar">
-                    
-            </div>
-                    
-        </form>
+    <div class="contenedor_contacto">
 
-    </div>
+         <div id="contacto">
+            <form action="">
+                <h2 class="contactanos"> Contactanos</h3>
+                <p> *Reservá tu lugar o consultanos para tu evento</p>
+                  
+                <div class="contenedor_form">
+                        <label for="nombre">Tu Nombre: </label>
+                        <input type="text">
+                        <input type="text">
+                        <label for="telefono">Tu Teléfono: </label>
+                        <input type="text">
+                        <label for="mensje">Tu Mensaje: </label>
+                        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Envia Mensaje" class="boton_enviar">
+                     <label for="mail">Tu Email: </label>
+                           
+                </div>           
+             </form>
+          </div>
 
+        <div class="mapa">
+            <h2>visitanos</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.009628346596!2d-64.19387478515827!3d-31.41386080327251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987f7db28c75%3A0xefb6daba462c075f!2sAv.%20Figueroa%20Alcorta%2010%2C%20X5000KGP%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1619445692992!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+</div>
     <footer>
 
     </footer>
