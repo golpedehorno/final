@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+/*RESPONSIVE*/
+
+@media(max-width:599px){
+
+}
+
+/*COMPU*/
+
 .menu{
     width: 13%;
     height: 100vh;
@@ -199,3 +207,5 @@ textarea{
 .mapa h2, .contactanos{
     color: white;
 }
+
+
